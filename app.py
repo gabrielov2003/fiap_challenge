@@ -1,5 +1,5 @@
 from chalice import Chalice, Response
-from chalicelib.authorizer import Athenticator
+from chalicelib.authorizer import Autenticator
 from geopy.distance import geodesic
 
 app = Chalice(app_name='safe-transit-api')
